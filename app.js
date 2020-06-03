@@ -1,11 +1,11 @@
-var friends = ["John", "Chris", "GoKu", "Lebron", "Kyrie"]
-var weapon = ["gun", "cup", "hand", "feet",
-    "chair", "bat", "laptop",
-    "mouse", "knife", "hammer", "car",
-    "poison", "table", "bomb", "paper clip",
-    "bus", "car", "pencil", "monitor", "book"
-]
-var locations = ["bedroom", "breakroom", "bathroom", "copy room", "office", "kitchen", "livingroom", "den", "attic", "closet"]
+var friends = ["John", "Chris", "GoKu", "Lebron", "Kyrie"],
+    weapon = ["gun", "cup", "hand", "feet",
+        "chair", "bat", "laptop",
+        "mouse", "knife", "hammer", "car",
+        "poison", "table", "bomb", "paper clip",
+        "bus", "car", "pencil", "monitor", "book"
+    ],
+    locations = ["bedroom", "breakroom", "bathroom", "copy room", "office", "kitchen", "livingroom", "den", "attic", "closet"]
 console.log(locations)
 
 
