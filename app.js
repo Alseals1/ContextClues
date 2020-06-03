@@ -26,17 +26,17 @@ for (i = 1; i <= 100; i++) {
     })
 }
 
-function randFriendList() {
+var randFriendList = () => {
     var randFriend = friends[Math.floor(Math.random() * friends.length)]
     return randFriend
 }
 
-function randWeaponList() {
+var randWeaponList = () => {
     var randWeapon = weapon[Math.floor(Math.random() * weapon.length)]
     return randWeapon
 }
 
-function randLocationList() {
+var randLocationList = () => {
     var randLocation = locations[Math.floor(Math.random() * locations.length)]
     return randLocation
 }
